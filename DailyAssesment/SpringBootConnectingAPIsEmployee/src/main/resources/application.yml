@@ -1,0 +1,19 @@
+# Server Configuration
+server:
+  port: 8086
+
+# Spring DataBase Configuration
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: SudebLaltu6@
+    url: jdbc:mysql://localhost:3306/connector?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+
+# Jpa Configuration
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true

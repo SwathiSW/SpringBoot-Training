@@ -1,0 +1,7 @@
+@charset "ISO-8859-1";
+body{
+	color: rgb(255, 128, 64);
+	background-color: rgb(64, 128, 128);
+	font-family: TimesNewRoman;
+	font-size: 12;
+}

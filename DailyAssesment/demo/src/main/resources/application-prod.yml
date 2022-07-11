@@ -1,0 +1,6 @@
+server:
+  port: 8060
+spring:
+  main:
+    show_banner: true
+    web_environment: true

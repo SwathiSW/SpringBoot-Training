@@ -1,0 +1,379 @@
+[
+  {
+    "ccId": 0,
+    "countries": {
+      "countriesCurrencies": {
+        "ccId": 0,
+        "countries": {},
+        "currencies": {
+          "countriesCurrencies": {},
+          "currencyId": 0,
+          "name": "string",
+          "sales": {
+            "currencies": [
+              {}
+            ],
+            "currencyId": 0,
+            "customerId": 0,
+            "customers": {
+              "countries": {},
+              "countryId": 0,
+              "customerId": 0,
+              "email": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "phone": 0,
+              "sales": [
+                {}
+              ]
+            },
+            "grossAmount": 0,
+            "netAmount": 0,
+            "orderNumber": 0,
+            "productId": 0,
+            "products": [
+              {
+                "colour": "string",
+                "fullDescription": "string",
+                "name": "string",
+                "productId": 0,
+                "sales": {},
+                "shortDescription": "string",
+                "size": "string",
+                "stores": [
+                  {
+                    "countryId": 0,
+                    "customerId": 0,
+                    "email": "string",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "phone": 0,
+                    "products": [
+                      {}
+                    ],
+                    "sales": {}
+                  }
+                ]
+              }
+            ],
+            "saleId": 0,
+            "salesChannel": 0,
+            "shippingCost": 0,
+            "stores": {
+              "countryId": 0,
+              "customerId": 0,
+              "email": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "phone": 0,
+              "products": [
+                {
+                  "colour": "string",
+                  "fullDescription": "string",
+                  "name": "string",
+                  "productId": 0,
+                  "sales": {},
+                  "shortDescription": "string",
+                  "size": "string",
+                  "stores": [
+                    {}
+                  ]
+                }
+              ],
+              "sales": {}
+            },
+            "tax": 0
+          }
+        }
+      },
+      "countryId": 0,
+      "customers": [
+        {
+          "countries": {},
+          "countryId": 0,
+          "customerId": 0,
+          "email": "string",
+          "firstName": "string",
+          "lastName": "string",
+          "phone": 0,
+          "sales": [
+            {
+              "currencies": [
+                {
+                  "countriesCurrencies": {
+                    "ccId": 0,
+                    "countries": {},
+                    "currencies": {}
+                  },
+                  "currencyId": 0,
+                  "name": "string",
+                  "sales": {}
+                }
+              ],
+              "currencyId": 0,
+              "customerId": 0,
+              "customers": {},
+              "grossAmount": 0,
+              "netAmount": 0,
+              "orderNumber": 0,
+              "productId": 0,
+              "products": [
+                {
+                  "colour": "string",
+                  "fullDescription": "string",
+                  "name": "string",
+                  "productId": 0,
+                  "sales": {},
+                  "shortDescription": "string",
+                  "size": "string",
+                  "stores": [
+                    {
+                      "countryId": 0,
+                      "customerId": 0,
+                      "email": "string",
+                      "firstName": "string",
+                      "lastName": "string",
+                      "phone": 0,
+                      "products": [
+                        {}
+                      ],
+                      "sales": {}
+                    }
+                  ]
+                }
+              ],
+              "saleId": 0,
+              "salesChannel": 0,
+              "shippingCost": 0,
+              "stores": {
+                "countryId": 0,
+                "customerId": 0,
+                "email": "string",
+                "firstName": "string",
+                "lastName": "string",
+                "phone": 0,
+                "products": [
+                  {
+                    "colour": "string",
+                    "fullDescription": "string",
+                    "name": "string",
+                    "productId": 0,
+                    "sales": {},
+                    "shortDescription": "string",
+                    "size": "string",
+                    "stores": [
+                      {}
+                    ]
+                  }
+                ],
+                "sales": {}
+              },
+              "tax": 0
+            }
+          ]
+        }
+      ],
+      "name": "string",
+      "regionId": 0,
+      "regions": {
+        "countries": [
+          {}
+        ],
+        "name": "string",
+        "regionId": 0
+      }
+    },
+    "currencies": {
+      "countriesCurrencies": {
+        "ccId": 0,
+        "countries": {
+          "countriesCurrencies": {},
+          "countryId": 0,
+          "customers": [
+            {
+              "countries": {},
+              "countryId": 0,
+              "customerId": 0,
+              "email": "string",
+              "firstName": "string",
+              "lastName": "string",
+              "phone": 0,
+              "sales": [
+                {
+                  "currencies": [
+                    {}
+                  ],
+                  "currencyId": 0,
+                  "customerId": 0,
+                  "customers": {},
+                  "grossAmount": 0,
+                  "netAmount": 0,
+                  "orderNumber": 0,
+                  "productId": 0,
+                  "products": [
+                    {
+                      "colour": "string",
+                      "fullDescription": "string",
+                      "name": "string",
+                      "productId": 0,
+                      "sales": {},
+                      "shortDescription": "string",
+                      "size": "string",
+                      "stores": [
+                        {
+                          "countryId": 0,
+                          "customerId": 0,
+                          "email": "string",
+                          "firstName": "string",
+                          "lastName": "string",
+                          "phone": 0,
+                          "products": [
+                            {}
+                          ],
+                          "sales": {}
+                        }
+                      ]
+                    }
+                  ],
+                  "saleId": 0,
+                  "salesChannel": 0,
+                  "shippingCost": 0,
+                  "stores": {
+                    "countryId": 0,
+                    "customerId": 0,
+                    "email": "string",
+                    "firstName": "string",
+                    "lastName": "string",
+                    "phone": 0,
+                    "products": [
+                      {
+                        "colour": "string",
+                        "fullDescription": "string",
+                        "name": "string",
+                        "productId": 0,
+                        "sales": {},
+                        "shortDescription": "string",
+                        "size": "string",
+                        "stores": [
+                          {}
+                        ]
+                      }
+                    ],
+                    "sales": {}
+                  },
+                  "tax": 0
+                }
+              ]
+            }
+          ],
+          "name": "string",
+          "regionId": 0,
+          "regions": {
+            "countries": [
+              {}
+            ],
+            "name": "string",
+            "regionId": 0
+          }
+        },
+        "currencies": {}
+      },
+      "currencyId": 0,
+      "name": "string",
+      "sales": {
+        "currencies": [
+          {}
+        ],
+        "currencyId": 0,
+        "customerId": 0,
+        "customers": {
+          "countries": {
+            "countriesCurrencies": {
+              "ccId": 0,
+              "countries": {},
+              "currencies": {}
+            },
+            "countryId": 0,
+            "customers": [
+              {}
+            ],
+            "name": "string",
+            "regionId": 0,
+            "regions": {
+              "countries": [
+                {}
+              ],
+              "name": "string",
+              "regionId": 0
+            }
+          },
+          "countryId": 0,
+          "customerId": 0,
+          "email": "string",
+          "firstName": "string",
+          "lastName": "string",
+          "phone": 0,
+          "sales": [
+            {}
+          ]
+        },
+        "grossAmount": 0,
+        "netAmount": 0,
+        "orderNumber": 0,
+        "productId": 0,
+        "products": [
+          {
+            "colour": "string",
+            "fullDescription": "string",
+            "name": "string",
+            "productId": 0,
+            "sales": {},
+            "shortDescription": "string",
+            "size": "string",
+            "stores": [
+              {
+                "countryId": 0,
+                "customerId": 0,
+                "email": "string",
+                "firstName": "string",
+                "lastName": "string",
+                "phone": 0,
+                "products": [
+                  {}
+                ],
+                "sales": {}
+              }
+            ]
+          }
+        ],
+        "saleId": 0,
+        "salesChannel": 0,
+        "shippingCost": 0,
+        "stores": {
+          "countryId": 0,
+          "customerId": 0,
+          "email": "string",
+          "firstName": "string",
+          "lastName": "string",
+          "phone": 0,
+          "products": [
+            {
+              "colour": "string",
+              "fullDescription": "string",
+              "name": "string",
+              "productId": 0,
+              "sales": {},
+              "shortDescription": "string",
+              "size": "string",
+              "stores": [
+                {}
+              ]
+            }
+          ],
+          "sales": {}
+        },
+        "tax": 0
+      }
+    }
+  }
+]

@@ -1,0 +1,27 @@
+server:
+  port: 8086
+resilience4j:
+  retry:
+    instances:
+      flightSearch:
+        maxRetryAttempts: 3
+        waitDuration: 2s
+      throwingException:
+        maxRetryAttempts: 3
+        waitDuration: 2s
+        retryExceptions:
+          - java.lang.Exception
+      predicateExample:
+        maxRetryAttempts: 3
+        waitDuration: 3s
+        resultPredicate: io.reflectoring.resilience4j.springboot.predicates.CoConditionalRetryPredicate
+      intervalFunctionRandomExample:
+        maxRetryAttempts: 3
+        waitDuration: 2s
+        enableRandomizedWait: true
+      RandomizedWaitFactor: 0.5
+      intervalFunctionExponentialExample:
+        maxRetryAttempts: 6
+        waitDuration: 1s
+        enableExponentialBackoff: true
+        exponentialBackoffMultiplier: 2    

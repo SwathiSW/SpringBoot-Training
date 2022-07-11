@@ -1,0 +1,35 @@
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+management:
+  endpoint:
+    health:
+      enabled: true
+    loggers:
+      enabled: true
+    refresh:
+      enabled: true
+    restart:
+      enabled: true
+    shutdown:
+      enabled: true
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include: '*'
+  health:
+    db:
+      enabled: true
+    diskspace:
+      enabled: true
+  security:
+    enabled: false
+server:
+  port: 8092
+spring:
+  application:
+    name: STUDENT-SERVICE

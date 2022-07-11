@@ -1,0 +1,62 @@
+endpoints:
+  beans:
+    enabled: true
+    id: springbeans
+    sensitive: false
+  health:
+    sensitive: false
+info:
+  app:
+    description: This is a spring boot Task in which Swagger, Actuator and Kafka are implemented
+    name: Spring Boot Task
+    version: 1.0.0
+kafka:
+  bootstrapAddress: 127.0.0.1
+management:
+  address: 127.0.0.1
+  endpoint:
+    health:
+      group:
+        custom:
+          include: diskSpace,ping
+          show-components: always
+          show-details: always
+          status:
+            http-mapping:
+              up: 207
+    shutdown:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        exclude: loggers
+        include: '*'
+  port: 8081
+  security:
+    enabled: true
+    role: SUPERUSER
+myname: Sudeb Dolui
+security:
+  user:
+    name: admin
+    password: secret
+server:
+  error:
+    whitelabel:
+      enabled: true
+  port: 9090
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: SudebLaltu6@
+    url: jdbc:mysql://localhost:3306/task?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: root
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    generate-ddl: true
+    hibernate:
+      show-sql: true
+  kafka:
+    bootstrap-servers: 127.0.0.1:9092
+    consumer:
+      group-id: mygroup
